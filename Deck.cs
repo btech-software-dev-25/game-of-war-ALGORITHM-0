@@ -31,7 +31,7 @@ namespace GameOfWar
         // Use RankNames and Suits in nested loops to generate all 52 combinations of rank and suit and add them to _cards
 
 
-        // Create a public void method called Shuffle() which shuffles (rearranges) the cards in _deck
+        // Create a public void method called Shuffle() which shuffles (rearranges) the cards in _cards
 
 
         // Create a public method CardAtIndex which takes an int parameter for the index of a card and
@@ -46,7 +46,7 @@ namespace GameOfWar
         // and removes them all from the deck, leaving it empty
 
 
-        // Create a public method PushCard that accepts a Card as a parameter and adds it to _deck
+        // Create a public method PushCard that accepts a Card as a parameter and adds it to _cards
 
 
         // Create a public method PushCards that accepts a List<Card> as a parameter and adds the list to _cards
@@ -55,7 +55,7 @@ namespace GameOfWar
 
         // Create a public method Deal that accepts an integer representing the number of cards to deal
         // and then removes that many cards from the deck, returning them as a List<Card>
-        // Be sure to check the size of _deck against the number of cards requested so you don't go out
+        // Be sure to check the size of _cards against the number of cards requested so you don't go out
         // of bounds
     }
 }
